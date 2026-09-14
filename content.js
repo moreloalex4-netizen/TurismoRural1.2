@@ -36,7 +36,6 @@ const CONTENIDO = {
           {
             type: "image",
             src: "images/paisaje-cafetero.svg",
-            { type: "image", src: "images/mi-foto.jpg", caption: "Descripción de la foto" },
             caption: "Paisaje Cultural Cafetero — Patrimonio de la Humanidad UNESCO, 2011"
           },
           {
