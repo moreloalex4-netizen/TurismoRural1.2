@@ -39,6 +39,14 @@ const CONTENIDO = {
             caption: "Paisaje Cultural Cafetero — Patrimonio de la Humanidad UNESCO, 2011"
           },
           {
+  type: "gallery",
+  items: [
+    { src: "images/finca-salento.jpg", caption: "Finca en Salento" },
+    { src: "images/rio-pance-1.jpg", caption: "Río Pance, marzo 2026" },
+    { src: "images/buitrera-sendero.jpg", caption: "Sendero en La Buitrera" }
+  ]
+},
+          {
             type: "text",
             parrafos: [
               "El Quindío hace parte del Paisaje Cultural Cafetero (PCC), declarado Patrimonio de la Humanidad por la UNESCO en 2011. La región se destaca por su arquitectura vernácula con bahareque y teja de barro, tradiciones campesinas y cultivos en ladera de café arábigo de alta calidad."
