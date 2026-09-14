@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turismo rural y ordenamiento territorial</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header class="topbar">
+    <h1>Turismo rural y ordenamiento territorial</h1>
+    <p class="subtitle">Práctica de campo — Eje Cafetero y Valle del Cauca</p>
+  </header>
+
+  <nav class="region-tabs">
+    <button class="region-btn active" data-region="armenia">Armenia y el Quindío</button>
+    <button class="region-btn" data-region="cali">Cali y su zona rural</button>
+  </nav>
+
+  <main>
+
+    <!-- ============ ARMENIA ============ -->
+    <section id="armenia" class="region-panel active">
+
+      <div class="topic-nav" data-region-nav="armenia"></div>
+
+      <div class="topic-content" data-region-content="armenia"></div>
+
+      <div class="map-block">
+        <h2>Mapa de referencia</h2>
+        <div id="map-armenia" class="site-map"></div>
+      </div>
+
+    </section>
+
+    <!-- ============ CALI ============ -->
+    <section id="cali" class="region-panel">
+
+      <div class="topic-nav" data-region-nav="cali"></div>
+
+      <div class="topic-content" data-region-content="cali"></div>
+
+      <div class="map-block">
+        <h2>Mapa de referencia</h2>
+        <div id="map-cali" class="site-map"></div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Portal de práctica de campo — Alex</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
