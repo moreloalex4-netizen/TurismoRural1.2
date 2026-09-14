@@ -35,7 +35,7 @@ const CONTENIDO = {
           },
           {
             type: "image",
-            src: "images/paisaje-cafetero.svg",
+            src: "Images/finca-salento.jpg",
             caption: "Paisaje Cultural Cafetero — Patrimonio de la Humanidad UNESCO, 2011"
           },
           {
